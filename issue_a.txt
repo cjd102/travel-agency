@@ -1,0 +1,17 @@
+FEATURE REQUEST: Flight Reviews & Rating System
+
+FEATURE TITLE:
+Implement Flight Reviews and Ratings for User Feedback and Social Proof
+
+FEATURE DESCRIPTION:
+Currently, users have no way to share feedback about their flight experiences
+or see what other travelers think about specific flights. This feature will 
+enable users to leave star ratings (1-5 stars) and written reviews on flights
+they have booked, helping other users make informed booking decisions.
+
+The reviews system will display all reviews for each flight, allowing the
+community to collectively identify the best travel options based on real
+user experiences.
+
+1. CREATE REVIEWS TABLE/COLLECTION
+2. IMPLEMENT REVIEW ENDPOINTS

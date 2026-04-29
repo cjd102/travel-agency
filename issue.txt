@@ -1,0 +1,20 @@
+BUG REPORT: Booking Persistence Issue
+
+ISSUE DESCRIPTION:
+The flight booking endpoint currently exists and appears to function correctly 
+from a user perspective:
+- Users can successfully submit valid booking data through the frontend form
+- The API returns a 201 success response immediately
+- The user's balance is temporarily deducted on the frontend
+- A confirmation message is displayed
+
+However, the booking is never actually persisted to the database backend.
+This creates critical data loss as all bookings are lost when users refresh 
+the page or close the browser.
+
+HOW TO REPRODUCE THE ISSUE:
+1. Navigate to the Travel Agency application homepage
+2. Book a flight with valid passenger data:
+3. Observe the booking appears in the "My Bookings" tab:
+4. Refresh the page (Cmd+R / Ctrl+R)
+5. Verify the booking was never saved
